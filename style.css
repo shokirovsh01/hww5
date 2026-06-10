@@ -73,3 +73,31 @@ border-radius: 10px;
     justify-content: space-evenly;
 margin-bottom: 100px;
 }
+.section2{
+    background-color: whitesmoke;
+    padding-top: 100px;
+}
+.s2box{
+    background-color: white;
+    padding: 20px;
+    width: 28%;
+    border-radius: 20px;
+}
+.s2df{
+    display:flex;
+    justify-content: space-evenly;
+}
+.cent1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.x9box{
+    padding: 20px;
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+}
+.dfx3{
+    display: flex;
+    justify-content: space-evenly;
+}
