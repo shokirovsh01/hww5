@@ -63,7 +63,7 @@ padding: 10px;
 border-radius: 10px;
 }
 .s1box{
-    width: 30%;
+    /* width: 30%; */
     background-color: whitesmoke;    
 padding: 15px;
 border-radius: 10px;
@@ -72,6 +72,7 @@ border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
 margin-bottom: 100px;
+flex-wrap: wrap;
 }
 .section2{
     background-color: whitesmoke;
@@ -80,7 +81,7 @@ margin-bottom: 100px;
 .s2box{
     background-color: white;
     padding: 20px;
-    width: 28%;
+    /* width: 28%; */
     border-radius: 20px;
 }
 .s2df{
@@ -129,4 +130,85 @@ border-radius: 30px;
     background-color: #252B42;
     color:white;
     margin-top: -30px;
+}
+.startm{
+    display:none;
+}
+.txmm{
+    display: none;
+}
+@media(max-width:510px){
+    
+     .s2box{
+padding: 40px;
+margin-top: 20px;   
+}
+
+
+    .sestion1{
+        flex-wrap: wrap;
+    }
+
+    .s2df{
+        flex-wrap: wrap;
+    }
+.startm{
+    display:block;
+ }
+ .mdf1{
+       display:flex;
+    justify-content: space-between;
+padding: 50px;
+ }
+ .s1box{
+    width: 60%;
+    margin-top: 20px;
+ }
+ .dfx3m{
+    display:none;
+ }
+ .dfx3{
+    flex-wrap: wrap;
+ }
+ .x9box{
+    width: 60%;
+    margin-top: 20px;
+ }
+ .predfooter{
+    flex-wrap: wrap;
+ }
+ .mm{
+    padding-top: 15px;
+ }
+ .footer{
+    flex-wrap: wrap;
+ }
+ .wm{
+    width:100%;
+    margin-top:20px;
+ }
+ .pricingx3{
+    flex-wrap: wrap;
+ }
+ .pbox{
+    margin-top: 50px;
+ }
+ .txmm{
+    display:block;
+    margin-top: 20px;
+    text-align: center;
+ }
+ /* .bi{
+        /* display:none; */
+    /* flex-wrap: wrap; */
+ 
+    .bitx1{
+        display: none;
+    }
+    .bidf{
+        flex-wrap: wrap;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
